@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="graph" Database="">
+  <Project Name="libgraph" Path="libgraph/libgraph.project" Active="No"/>
+  <Project Name="libgraphtest" Path="libgraphtest/libgraphtest.project" Active="No"/>
+  <Project Name="libgraphdemo" Path="libgraphdemo/libgraphdemo.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="libgraph" ConfigName="Debug"/>
+      <Project Name="libgraphtest" ConfigName="Debug"/>
+      <Project Name="libgraphdemo" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="libgraph" ConfigName="Release"/>
+      <Project Name="libgraphtest" ConfigName="Release"/>
+      <Project Name="libgraphdemo" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
