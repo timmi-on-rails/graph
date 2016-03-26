@@ -5,10 +5,10 @@
 namespace graph
 {
 
-class PointPointDistanceConstraint : GeometricConstraint
+class PointPointDistanceConstraint : public GeometricConstraint
 {
 public:
-
+	PointPointDistanceConstraint();
 };
 
 }
